@@ -1,0 +1,455 @@
+
+.logo{
+    color:white;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+   
+    
+}
+.nav-item{
+    justify-content: center !important;
+}
+.nav-link:hover{
+    color: rgb(235, 201, 10) !important;
+    box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.60);
+    border-radius: 15px;
+}
+.pic{
+    height: 45px !important;
+}
+
+/* ================================== media query section ==================================== */
+
+@media (max-width:  1000px){
+    .logo{
+        font-size: 30px;
+    }
+    .pic{
+        height: 37px !important;
+    }
+    .nav-link{
+        padding-left: 8px  !important;
+    }
+    .nav-link{
+        display: inline !important;
+        font-size: 14px !important;
+       text-align: center !important;
+    }
+    .slogan1{
+        font-size: 40px !important;
+        padding-top: 10px !important;
+    }
+    .slogan2{
+        font-size: 18px !important;
+        padding-top: 5px !important;
+        padding-bottom: 0px !important;
+    }
+    .input-group{
+        padding-top: 0px !important;
+        
+    }
+    .icon{
+        height: 32px !important;
+    }
+    .categories{
+        font-size: 22px !important;
+    }
+    .subscribe{
+        width: 90px !important;
+    }
+    .email{
+        width: 240px !important ;
+    }
+    .iconimg{
+        height: 40px !important;
+    }
+    .card-text{
+        font-size: 12px !important;
+    }
+    .buy{
+       margin-right: 40px !important;
+    }
+    
+    
+
+/* =============================================================================================================
+============================================================================================================= */
+
+}
+.btn{
+    border: 3px groove rgb(0, 225, 255) !important;
+    
+}
+ .dropdown-menu{
+    background-color: rgba(0,0,0,0.5) !important;
+    color: white !important;
+    box-shadow: 0px 0px 4px blue;
+}
+.dropdown-item{
+    color: white !important;
+}
+.dropdown-item:hover{
+    background-color: transparent !important ;
+    text-shadow: 1px 1px 1px yellow !important;
+}
+.carousel-caption {
+    background-color:rgba(0,0,0,0.5) !important;
+    position: absolute !important;
+    right: 0% !important;
+    top: 0% !important;
+    left: 0% !important;
+    bottom: 0% !important;
+    height: 100% !important;
+    width: 100% !important;
+    /* margin-left: -68px !important; */
+}
+.navbar{
+    margin-top: -20px !important;
+}
+.slogan1{
+    padding-top: 40px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(8, 250, 210);
+    text-shadow: 5px 8px 10px rgb(5, 22, 255);
+}
+.slogan2{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 238, 0);
+    text-shadow: 3px 4px 3px black ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.input-group{
+    width: 50% !important;
+    left: 25% !important;
+    padding-top: 20px;
+   
+}
+.btn-primary{
+    color: white !important;
+    height: 42px !important;
+    font-weight: bold !important;
+    border: 1px solid black !important;
+    background: rgb(2,0,36) !important;
+    background: linear-gradient(9deg, rgba(2,0,36,1) 17%, rgba(9,19,121,0.9802786152014572) 50%, rgba(0,212,255,1) 100%) !important;
+}
+.categories{
+
+    text-align: center;
+    font-size: 45px;
+    color: rgb(2,0,36);
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0,212,255,1);
+}
+.card{
+    
+    box-shadow: 6px 8px 7px rgba(0,0,0,0.65);
+}
+.heart{
+    display: inline;
+    height: 30px;
+    padding-left:  95px;
+}
+
+/* ====================== animation for category heading ============================================== */
+.puff-in-center {
+	-webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+.categories:hover{
+    animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+
+}
+.slogan1:hover{
+    animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715);
+
+
+}
+/**
+ * ----------------------------------------
+ * animation puff-in-center
+ * ----------------------------------------
+ */
+
+  @keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+/* =============================================================================================================
+======================================= animation for slogans =============================================== */
+ 
+.tracking-in-expand {
+	
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation text-focus-in
+ * ----------------------------------------
+ */
+ @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  .categories{
+      padding-top: 40px;
+  }
+.flex-container{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.card{
+    margin: 20px !important;
+    flex-wrap: wrap;
+}
+.buy{
+    margin-left: 100px;
+}
+/* =============================================================================================================
+======================================= animation for category cards =============================================== */
+
+
+.card:hover .animation{
+    animation: swirl-in-fwd 0.6s ease-in both;
+}
+
+/**
+ * ----------------------------------------
+ * animation swirl-in-fwd
+ * ----------------------------------------
+ */
+ @-webkit-keyframes swirl-in-fwd {
+    0% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes swirl-in-fwd {
+    0% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+/* ========================================================================================================
+===================================== about us =========================================================   */
+.about{
+    padding: 50px;
+    text-align: center;
+    background-image: url(images/about3.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover !important;
+    background-position: center center;
+    
+}
+.aboutheading{
+    color: rgb(5, 22, 255);
+}
+.aboutpara{
+    font-weight: bold;
+    color: rgb(2,0,36);
+}
+/* ============================== top trends ============================================ */
+.trends{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 2px 3px  yellow ;
+    font-style: italic;
+
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.controls-top{
+    align-items: center !important;
+    margin-left: 50% !important;
+    font-size: 35px !important;
+
+}
+.trendslide{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    padding: 10px !important;
+    flex-direction: row !important;
+    float: left !important;
+}
+.carousel-inner{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.item{
+    
+    height: 110px ;
+}
+.card-text{
+    font-weight: bold;
+
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
+.links{
+    height: auto;
+    width: auto;
+    margin-top: 70px;
+
+    background: #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+
+}
+/* ========================================================= links ka div ===========================================
+================================================================================================================== */
+.email{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 400px;
+    border: 3px groove grey;
+    height: 40px;
+
+}
+.subscribe{
+    border: 3px groove grey;
+    width: 150px;
+    font-weight: bold;
+    color: ivory;
+    height: 40px;
+    background: linear-gradient(9deg, rgba(2,0,36,1) 17%, rgba(9,19,121,0.9802786152014572) 50%, rgba(0,212,255,1) 100%) !important;
+}
+/* ===============================================================================================================================
+======================================== icons ============================================================================== */
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+
+}
+.row{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+   justify-content: center;
+   padding: 4%;
+   
+}
+
+.col{
+    display: table-cell;
+    justify-content: space-around !important;
+    
+    
+}
+
+/* =================================================================================================================
+============================== footer =========================================================================== */
+footer{
+    background: linear-gradient(9deg, rgba(2,0,36,1) 17%, rgba(9,19,121,0.9802786152014572) 50%, rgba(0,212,255,1) 100%) !important;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.aboutheading{
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 3px 2px yellow;
+}
+
+/* ===========================================================================================================
+===================================== login =============================================================== */

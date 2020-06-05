@@ -1,0 +1,119 @@
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+    font-size: 40px;
+    text-shadow: 3px 2px 3px  orange ;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 2px 3px  yellow ;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.flex-container{
+    margin: 30px !important;
+}
+body{
+    overflow-x: hidden !important;
+    
+}
+.col{
+    margin: 30px;
+}
+h5{
+    text-align: center;
+    font-weight: bold !important;
+    text-decoration: underline;
+    color: red;
+}
+.quality{
+    text-align: center;
+    
+}
+h2{
+    font-weight: bold !important;
+    text-shadow: 2px 2px 5px aqua;
+}
+p{
+    padding-top: 30px;
+}
+
+
+/* =================================================================================================================
+============================== footer =========================================================================== */
+footer{
+    background: linear-gradient(9deg, rgba(2,0,36,1) 17%, rgba(9,19,121,0.9802786152014572) 50%, rgba(0,212,255,1) 100%) !important;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.links{
+    height: auto;
+    width: auto;
+    margin-top: 70px;
+
+    background: #603813;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+
+}
+
+/* ========================================================= links ka div ===========================================
+================================================================================================================== */
+.email{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 400px;
+    border: 3px groove grey;
+    height: 40px;
+
+}
+.subscribe{
+    border: 3px groove grey;
+    width: 150px;
+    font-weight: bold;
+    color: ivory;
+    height: 40px;
+    background: linear-gradient(9deg, rgba(2,0,36,1) 17%, rgba(9,19,121,0.9802786152014572) 50%, rgba(0,212,255,1) 100%) !important;
+}
+/* ===============================================================================================================================
+======================================== icons ============================================================================== */
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+
+}
+
+.alpha{
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+   justify-content: center;
+   padding: 4%;
+   
+}
+
+.beta{
+    display: table-cell;
+    
+    
+}
+img{
+    width: 100% !important;
+    
+}
